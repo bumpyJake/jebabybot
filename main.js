@@ -387,7 +387,7 @@ client.on('message', message => {
             const embed = new Discord.MessageEmbed()
             .setTitle("Rule 7:")
             .setColor('GREEN')
-            .setDescription('If you have a concern or problem please contact <@&741415445365653522> or <@&741415445365653523>.')
+            .setDescription('If you have a concern or problem please contact <@&726272465667620986> or <@&726286298888798249>.')
             .setFooter('The Mine', 'https://i.imgur.com/Xzq4uyZ.png')
             message.channel.send({embed})
     

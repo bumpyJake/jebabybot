@@ -209,7 +209,7 @@ client.on('message', message => {
       
         // send in same channel
         // message.channel.send(exampleEmbed);
-      ~
+    
         // send in different channel
         client.channels.fetch('726492895523242035').then(channel => {
             channel.send("Emerald is live!! Come chat!! \n<https://twitch.tv/aliyahyeet_> \n \n[ @everyone ] \n" + exampleEmbed)

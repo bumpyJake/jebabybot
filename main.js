@@ -212,7 +212,8 @@ client.on('message', message => {
     
         // send in different channel
         client.channels.fetch('726492895523242035').then(channel => {
-            channel.send("Emerald is live!! Come chat!! \n<https://twitch.tv/aliyahyeet_> \n \n[ @everyone ] \n" + exampleEmbed)
+            channel.send("Emerald is live!! Come chat!! \n<https://twitch.tv/aliyahyeet_> \n \n[ @everyone ]")
+            channel.send(exampleEmbed)
         });
         
         // alternatively, you can use this (but the function must be asynchronous)
